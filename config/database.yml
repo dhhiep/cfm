@@ -1,0 +1,24 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: cfm_development
+
+test:
+  <<: *default
+  database: cfm_test
+
+production:
+  database: cfm_production
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+staging:
+  database: cfm_staging
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
