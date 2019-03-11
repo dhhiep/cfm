@@ -1,24 +1,10 @@
-# README
+# Purpose
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My friend is manager of a coffee shop, so she want to a mini tool to note expenditure daily, aslo she want to make tool to schedule for staff each a week. So, i make this project for her.
 
-Things you may want to cover:
+# Documentation
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The technique I will usage on this project:
++ Ruby on Rails for backend
++ Vuejs for frontend
++ Postgresql for Database system
